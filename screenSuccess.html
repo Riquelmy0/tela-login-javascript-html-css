@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        body{
+            height: 100vh;
+            background-color: rgb(18, 53, 82);
+            display: grid;
+            place-items: center;
+        }
+
+        .containner{
+            width: 20rem;
+            height: 23rem;
+            background-color: white;
+            border-radius: 20px;
+            padding: 30px 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        h1{
+            font-weight: 600;
+            color:rgb(36, 68, 94)
+        }
+        span{
+            font-size: 13px;
+        }
+        button{
+            height: 50px;
+            border: none;
+            background-color: rgb(26, 48, 66);
+            color: white;
+            font-weight: 600;
+            border-radius: 7px;
+            box-shadow: 0 1px 10px rgba(0,0,0,0.3);
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .email{
+            font-size: 13px;
+            color: rgb(26, 48, 66);
+            font-weight: 700;
+
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+    <div class="containner">
+        <div class="icon_svg"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 64 64"><defs><linearGradient id="a" x1="100%" x2="0%" y1="0%" y2="100%"><stop offset="0%" stop-color="#FF6A3A"/><stop offset="100%" stop-color="#FF527B"/></linearGradient></defs><g fill="none"><circle cx="32" cy="32" r="32" fill="url(#a)"/><path stroke="#FFF" stroke-width="4" d="m18.286 34.686 8.334 7.98 19.094-18.285"/></g></svg></div>
+
+                <h1>Thanks for subscribing! </h1>
+            <span> A confirmation email has been sent to <span class="email">email inserido</span>
+                please open it and click the button inside to confirm your subscription.
+            </span>
+        <button class="button"> Dismiss message</button>
+    </div>
+
+    <script src="./sucess.js"></script>
+</body>
+</html>
